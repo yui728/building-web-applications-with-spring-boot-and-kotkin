@@ -18,7 +18,7 @@ class Article (
 
 @Entity
 class User(
-        var lonin: String,
+        var login: String,
         var firstname: String,
         var lastname: String,
         var description: String? = null,
